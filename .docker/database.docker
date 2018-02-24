@@ -1,0 +1,3 @@
+FROM postgres:10.2-alpine 
+ENV POSTGRES_DB laravel_app
+EXPOSE 5432
